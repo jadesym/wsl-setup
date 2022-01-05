@@ -1,5 +1,11 @@
 sudo apt update && sudo apt upgrade
 
+# Update to the latest version of git
+sudo apt-add-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+
+# Create a workspace directory for development
 mkdir workspace
 cd workspace
 
