@@ -5,6 +5,9 @@ sudo apt-add-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 
+# Set default branch for git to use main
+git config --global init.defaultBranch main
+
 # Create a workspace directory for development
 mkdir workspace
 cd workspace
