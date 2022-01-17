@@ -1,4 +1,4 @@
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt -y upgrade
 
 # Update to the latest version of git
 sudo apt-add-repository ppa:git-core/ppa
