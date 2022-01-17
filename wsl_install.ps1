@@ -1,3 +1,6 @@
+# Update wsl
+wsl --update
+
 # enable the "Virtual Machine Platform" optional feature.
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
