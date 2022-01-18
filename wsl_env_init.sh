@@ -7,6 +7,8 @@ sudo apt-get -y install git
 
 # Set default branch for git to use main
 git config --global init.defaultBranch main
+# Set default editor for git to use vim
+git config --global core.editor "vim"
 
 # Create a workspace directory for development
 mkdir workspace
