@@ -20,5 +20,8 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githu
 sudo apt update
 sudo apt -y install gh
 
+# Install dos2unix command for ease of use
+sudo apt -y install dos2unix
+
 # Create a hushlogin file to hush the Ubuntu startup message
 touch /home/kfu/.hushlogin
