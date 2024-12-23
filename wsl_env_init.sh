@@ -25,3 +25,8 @@ sudo apt -y install dos2unix
 
 # Create a hushlogin file to hush the Ubuntu startup message
 touch /home/kfu/.hushlogin
+
+# xdg-open suppport
+sudo add-apt-repository ppa:wslutilities/wslu
+sudo apt update
+sudo apt install wslu
