@@ -1,0 +1,11 @@
+# In Ubuntu
+fstrim -a
+
+# In Windows PowerShell
+wsl --shutdown
+diskpart
+select vdisk file="C:\Users\user.name\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc\LocalState\ext4.vhdx"
+attach vdisk readonly
+compact vdisk
+detach vdisk
+exit
